@@ -1,0 +1,19 @@
+---
+alwaysApply: true
+---
+Project: Nigerian civic issue reporting web app.
+Stack: Next.js App Router, TypeScript, Tailwind, shadcn/ui,
+Supabase (Postgres + PostGIS, auth, storage), Zod, React Hook Form.
+Rules:
+- TypeScript strict, no `any`.
+- Validate all input with Zod.
+- Database changes only via migrations in /db/migrations.
+- Never expose personal data (names, phones, exact home locations).
+- Small, focused changes. Explain what you changed.
+- After each completed feature, remind me to commit with a
+  conventional commit message and push.
+- Mobile-first UI, light on data (Nigerian users, budget phones).
+- I am learning software development: briefly explain the why
+  behind each change.
+
+I will keep updating it with time
