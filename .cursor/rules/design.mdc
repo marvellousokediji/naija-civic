@@ -1,8 +1,16 @@
 ---
 alwaysApply: true
 ---
+- Feel: trustworthy, clear, civic, premium.
 - Premium, trustworthy look, but function first: large tap
   targets, high contrast, obvious primary action on every screen.
 - Polish through typography, spacing, and restraint, not heavy
   effects. Keep it fast on budget phones.
+- Colors: placeholder palette for now, final brand colors come
+  later. Define all colors once as CSS variables (never hardcode
+  hex values in components) so the palette can be swapped in
+  one place.
+- One readable font, generous spacing.
 - Report counts and fix rates are the visual hero.
+- Avoid generic AI-looking gradients and stock-template layouts.
+- Mobile-first, then scale up to desktop.
